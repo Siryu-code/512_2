@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>512_2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app">
+        <h1>2048</h1>
+        <div class="controls">
+            <div class="target" id="target">
+                <p>Pilih target kemenangan</p>
+                <div class="chips" id="chips"></div>
+            </div>
+            <div class="actions">
+                <button type="button" class="btn primary" id="startBtn">Mulai</button>
+                <button type="button" class="btn ghost" id="restartBtn" disabled>Restart</button>
+            </div>
+        </div>
+
+        <div class="board dim" id="board">
+            <div class="overlay" id="overlay">
+                <h2 id="ovTitle"></h2>
+                <div class="row">
+                    <button type="button" class="btn primary" id="ovAgain">Main Lagi</button>
+                    <button type="button" class="btn ghost" id="ovRestart">Atur Ulang</button>
+                </div>
+            </div>
+        </div>
+
+        <section class="help">
+            <p><strong>Cara Bermain</strong></p>
+            <p>Geser semua kotak ke satu arah. Dua kotak dengan angka sama akan menyatu dan angkanya berlipat ganda. capai angka target untuk menang. permainan berakhir kalau terget terpenuhi atau tidak ada kotak yang bisa digerakkan</p>
+            <ul>
+                <li>Gunakan ASWD atau panah untuk menggerakkan kotak di laptop.</li>
+                <li>Geser layal untuk menggerakkan kotak di HP.</li>
+            </ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- Yang pasti, aku ragu dengan atributte yang ku pake. sama perihal ul li ini gimana. kamu bilang yang asli salah, terus ini aku cuma pakein li aja. gimana? -->
